@@ -6,11 +6,15 @@ h1 {
     font-size: 50px;
 }
 
-.name {
-    color: brown;
+h2 {
+    font-size: 40px;
 }
 
-section {
+.name {
+    color: purple;
+}
+
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -31,4 +35,28 @@ section {
     text-decoration: none;
     color: white;
     font-weight: 700;
+}
+
+.exp {
+    width: 40%;
+    margin: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+}
+
+#professional {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, crimson);
+    border-image-slice: 1;
+}
+
+#Junior {
+    border-left: 7px solid;
+    border-image: linear-gradient(crimson, purple);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
